@@ -1,0 +1,189 @@
+body {
+    background-image: url('./img/bg-fon1.png');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 7px;
+  }
+  
+  .header {
+    height: 100px;
+    border-radius: 75px;
+    background-color: rgba(19, 172, 314, 0.5);
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 45px;
+    padding-top: 25px;
+    text-align: center;
+    font-family: 'Cherry Bomb One', cursive;
+    font-weight: 700;
+  }
+  
+  .search {
+    position: relative;
+  }
+  
+  .searchInput {
+    background-color: rgba(224, 255, 255, 0.5);
+    border: 2px solid #000000;
+    border-bottom: none;
+    padding-left: 15px;
+    width: 580px;
+    height: 40px;
+  }
+  
+  .searchBtn {
+    top: 7px;
+    right: 13px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .weather {
+    display: flex;
+    border: 2px solid #000000;
+  }
+  
+  .weather__content {
+    width: 290px;
+    border-right: 2px solid #000000;
+    padding: 14px 16px;
+    background-color: rgba(224, 255, 255, 0.5);
+  }
+  
+  .temperature {
+    display: flex;
+    padding-left: 10px;
+  }
+  
+  .weather__num {
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 82px;
+    z-index: 3;
+  }
+  
+  .weather__cloud {
+    max-height: 64px;
+  }
+  
+  .weather__content-favorite {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .weather__city {
+  
+    font-size: 24px;
+    line-height: 28px;
+  }
+  
+  .weather__heart {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .heartImage {
+    max-width: 24px;
+    max-height: 22px;
+  }
+  
+  .weather__locations {
+    min-width: 300px;
+    background-color: rgba(224, 255, 255, 0.5);
+  }
+  
+  .weather__cities {
+    border-bottom: 2px solid #000000;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 8px 92px 10px 18px;
+  }
+  
+  .city {
+    min-height: 247px;
+  }
+  
+  .city__container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+  }
+  
+  .city__container:not(:last-child){
+    border-bottom: 1px solid #000000;
+  }
+  
+  .city__link {
+    font-size: 24px;
+    line-height: 28px;
+    padding: 7px 7px;
+  }
+  
+  .city__link:hover{
+    transition: all 0.3s;
+    opacity: 0.3;
+  }
+  
+  .delete__city {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+    padding: 0px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    ;
+    cursor: pointer;
+  }
+  
+  .sunset {
+    background-color: rgba(66, 170, 255, 0.3);
+    border-radius: 10px;
+    font-size: 21px;
+    line-height: 24.61px;
+    margin-bottom: 25px;
+  }
+  
+  
+  .prediction {
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0 10px ;
+  }
+  
+  .prediction__section {
+    padding-bottom: 10px;
+  }
+  
+  .prediction__section:not(:first-child) {
+    padding-top: 8px;
+  }
+  
+  .prediction__section:not(:last-child) {
+    border-bottom: 2px solid #000000;
+  }
+  
+  .prediction__time {
+    margin-bottom: 12px;
+    font-size: 22px;
+  }
+  .statistics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
